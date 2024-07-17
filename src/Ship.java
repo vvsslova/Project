@@ -1,9 +1,9 @@
 public class Ship extends Transport {
-    Ship(String color, String model, int weight, Engine Engine) {
+    Ship(String color, String model, int weight, Engine engine) {
         this.color = color;
         this.model = model;
         this.weight = weight;
-        this.Engine = Engine;
+        this.engine = engine;
     }
 
     @Override
@@ -12,7 +12,7 @@ public class Ship extends Transport {
     }
 
     public Engine getEngine() {
-        return Engine;
+        return engine;
     }
 
     public int getWeight() {

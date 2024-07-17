@@ -1,9 +1,9 @@
 public class Plane extends Transport {
-    Plane(String color, String model, int weight, Engine Engine) {
+    Plane(String color, String model, int weight, Engine engine) {
         this.color = color;
         this.model = model;
         this.weight = weight;
-        this.Engine = Engine;
+        this.engine = engine;
     }
 
     @Override
@@ -12,7 +12,7 @@ public class Plane extends Transport {
     }
 
     public Engine getEngine() {
-        return Engine;
+        return engine;
     }
 
     public int getWeight() {

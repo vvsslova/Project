@@ -1,14 +1,14 @@
 public class Engine {
-    private EngineType EngineType;
+    private EngineType engineType;
     private final int power;
 
-    Engine(EngineType EngineType, int power) {
+    Engine(EngineType engineType, int power) {
         this.power = power;
-        this.EngineType = EngineType;
+        this.engineType = engineType;
     }
 
     public EngineType getEngine (){
-        return EngineType;
+        return engineType;
     }
 
     public int getPower() {

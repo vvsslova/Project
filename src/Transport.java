@@ -2,10 +2,10 @@ public abstract class Transport {
     protected String color;
     protected String model;
     protected int weight;
-    protected Engine Engine;
+    protected Engine engine;
 
     public Engine getEngine() {
-        return Engine;
+        return engine;
     }
 
     public int getWeight() {
